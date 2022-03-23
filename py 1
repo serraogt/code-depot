@@ -1,0 +1,17 @@
+x = input('whats your name?')
+print('hello '+ x + '.')
+y = input('What is your Student ID?')
+print('Your ID '+ y)
+
+print('enter a number: ')
+num1 = int(input())
+print(num1)
+
+print('enter a second number: ')
+num2 = int(input())
+print(num2)
+sum = (num1 + num2)
+print('sum of these variables are: ', sum)
+
+
+print('* \n*\n**')
