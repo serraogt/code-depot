@@ -14,4 +14,4 @@ sum = (num1 + num2)
 print('sum of these variables are: ', sum)
 
 
-print('* \n*\n**')
+print('* \n**\n***')
