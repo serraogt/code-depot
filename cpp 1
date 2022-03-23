@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+cout << "whats your name?";
+string x;
+cin >> x;
+cout<< "hello " << x <<endl;
+
+cout << "What is your Student ID? ";
+int y;
+cin >> y;
+cout<< "ID " << y <<endl;
+
+cout << "enter a number: " <<endl;
+int num1;
+cin >> num1;
+
+
+cout << "enter a second number: "<<endl;
+int num2;
+cin >> num2;
+
+int sum = num2 + num1;
+int diff = num1 - num2;
+int prod = num1 * num2;
+
+
+cout<< "summation of these numbers are " << sum <<endl;
+cout<< "difference of these numbers are " << diff <<endl;
+cout<< "prod of these numbers are " << prod <<endl;
+
+cout<< "*\n*\n***";
+
+
+return 0;
+}
